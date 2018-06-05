@@ -13,7 +13,7 @@
   *
   */
 function main(params) {
-return { gitUrl : "https://github.com/" + params.username + "/" + params.repository, manifestPath : ".", update: "Merged from merge branch x - 2" };
+return { gitUrl : "https://github.com/" + params.username + "/" + params.repository, manifestPath : ".", update: "Merged from merge branch x - 5" };
 }
 
 exports.main = main;
