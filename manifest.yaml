@@ -10,14 +10,15 @@ packages:
     license: Apache-2.0
     namespace: _
     actions:
-      actionTest:
-        function: actions/remote.js
+      nodejsAction:
+        function: actions/nodejs/remote.js
         runtime: nodejs:6
   newpackage:
     version: 1.0
     license: Apache-2.0
     namespace: _
     actions:
-      newpackageaction:
-        function: actions/remote.js
-        runtime: nodejs:6
+      javaAction:
+        function: actions/java/target/demo-function.jar
+        main: com.example.FunctionApp
+        runtime: java:8
