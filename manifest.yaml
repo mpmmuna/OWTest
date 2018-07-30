@@ -10,7 +10,7 @@ packages:
     license: Apache-2.0
     namespace: _
     actions:
-      nodejsTestAction2:
+      nodejsTestAction:
         function: actions/nodejs/remote.js
         runtime: nodejs:6
   newpackage:
