@@ -10,7 +10,7 @@ packages:
     license: Apache-2.0
     namespace: _
     actions:
-      nodejsDemoAction2:
+      nodejsDemoAction3:
         function: actions/nodejs/remote.js
         runtime: nodejs:6
   newpackage:
@@ -18,7 +18,7 @@ packages:
     license: Apache-2.0
     namespace: _
     actions:
-      javaDemoAction2:
+      javaDemoAction3:
         function: actions/java/target/demo-function.jar
         main: com.example.FunctionApp
         runtime: java:8
