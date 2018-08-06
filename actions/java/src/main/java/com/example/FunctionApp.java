@@ -25,7 +25,7 @@ import com.google.gson.JsonObject;
 public class FunctionApp {
   public static JsonObject main(JsonObject args) {
     JsonObject response = new JsonObject();
-    response.addProperty("greetings from WSO2", "Hello! Welcome to OpenWhisk");
+    response.addProperty("message", "Hello! Welcome to WSO2 Serverless");
     return response;
   }
 }
